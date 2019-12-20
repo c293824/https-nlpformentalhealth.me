@@ -18,7 +18,7 @@
     <header>
       <div class="inner">
         <a href="{{ '/' | absolute_url }}">
-          <h1>{{ site.title | default site.github.project_tagline</h1>
+          <h1>{{ site.title | default: NLPforMentalHealth}}</h1>
         </a>
         <h1>{{ site.description | default: site.github.project_tagline }}</h1>
         {% if site.github.is_project_page %}
